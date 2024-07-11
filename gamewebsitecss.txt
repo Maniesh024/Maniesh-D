@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0)100%,rgba(255,255,255,0)100%),url(https://wallpapers.com/images/file/green-and-black-background-6o7fi4exq0rbsvtw.jpg);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: transparent;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}

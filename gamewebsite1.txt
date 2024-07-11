@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="gamewebsite.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Addicting Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to Addicting Game</h1>
+            <p class="lead">Your ultimate destination for the latest games and updates</p>
+            <hr class="my-4">
+            <p>Explore our collection of games and find your next adventure</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+        <h2 class="text-center" style="color: aliceblue;">Featured Game</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.wVQitwK6CYAyF3ErIKF70wHaD4?rs=1&pid=ImgDetMain" class="card-img-top" alt="Featured Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Rise of the king</h5>
+                        <p class="card-text">Lead legions of elves and men in epic battles!crush enimies! Seize the throne!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mt-5" style="color: aliceblue;">Game List</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp6334469.png" class="card-img-top" alt="Game 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ashphalt 9: Legends</h5>
+                        <p class="card-text">Sports racing game to drift on the streets. Play online solo & multiplayer mode</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/1260302.jpg" class="card-img-top" alt="Game 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Fire</h5>
+                        <p class="card-text">Season 6 is out now! Survive and Dominate in Multiplayer FPS</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpaperaccess.com/full/7447747.jpg" class="card-img-top" alt="Game 3">
+                    <div class="card-body">
+                        <h5 class="card-title">BGMI</h5>
+                        <p class="card-text">No Time? No worries BGMI Quick game modes and Mecha Fusion Mode got you </p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/3LR0PWn43xw/maxresdefault.jpg" class="card-img-top" alt="Game 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Temple Run</h5>
+                        <p class="card-text">Run for your life!</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp7429469.jpg" class="card-img-top" alt="Game 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Clash of Clans</h5>
+                        <p class="card-text">Epic combat strategy game. Build your village, train your troops & go to battle!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp8116675.jpg" class="card-img-top" alt="Game 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Subway surfers</h5>
+                        <p class="card-text">Help Jake, Tricky & Fresh escape from the grumpy Inspector and his dog!</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp8476853.jpg" class="card-img-top" alt="Game 7">
+                    <div class="card-body">
+                        <h5 class="card-title">UNO!</h5>
+                        <p class="card-text">Classic Game at your Fingertips</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/_oWPA5v045c/maxresdefault.jpg" class="card-img-top" alt="Game 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrom Pool:Disc Game</h5>
+                        <p class="card-text">Relieve your childhood memories in this hit multiplayer</p>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://wallpapercave.com/wp/wp2347563.jpg" class="card-img-top" alt="Game 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Candy Crush Saga</h5>
+                        <p class="card-text">Sugary sweet games for candy fiends</p><br>
+                        <a href="#" class="btn btn-primary">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
